@@ -1,0 +1,107 @@
+/* =============== Fade in text =============== */
+.fadein {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* =============== Page One Tooltips =============== */
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #CF9FFF;
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.tooltip-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.hidden-features-text {
+  border-bottom: 1px dotted #000;
+  cursor: pointer;
+}
+
+/* =============== I AM A -- SLIDE IN's =============== */
+#webdev {
+  visibility: hidden;
+  animation: slideInWebDev 1.5s forwards;
+}
+
+@keyframes slideInWebDev {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(30px);
+    visibility: visible;
+  }
+}
+
+#entrepreneur {
+  visibility: hidden;
+  animation: slideInEntrepreneur 1.5s 1s forwards;
+}
+
+@keyframes slideInEntrepreneur {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(100px);
+    visibility: visible;
+  }
+}
+
+#student {
+  visibility: hidden;
+  animation: slideInStudent 1s 2s forwards;
+}
+
+@keyframes slideInStudent {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(170px);
+    visibility: visible;
+  }
+}
+
+#chef {
+  visibility: hidden;
+  animation: slideInChef 1.5s 3s forwards;
+}
+
+@keyframes slideInChef {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(240px);
+    visibility: visible;
+  }
+}
