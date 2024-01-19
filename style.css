@@ -265,3 +265,37 @@ tr:nth-child(even) {
   margin-left: auto;
   margin-right: auto;
 }
+.funfactrow {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.ffstack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.divt1 {
+  width: 100px; 
+  height: 100px;
+  background-color: #7EC8E3;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.divt2 {
+  width: 200px;
+  height: 210px;
+  background-color: #7EC8E3;
+  margin: 5px;
+  border-radius: 5px;
+}
