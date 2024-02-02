@@ -16,6 +16,6 @@ const footer = `
       <a target='_blank' href='https://vsco.co/prestonkwei'><img class='socialicon' src='https://wnwreby.media.bublupcdn.com/v-v4o477bPV1XfhmG0_wUg/images/full_007-im-c4104464-1ed0-415e-8bab-b1fbc5287139.png'></a>
     </div>
   </div>
-`
+`;
 
 document.body.innerHTML += footer;

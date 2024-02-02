@@ -1,22 +1,32 @@
 .typewriter {
   white-space: nowrap;
   overflow: hidden;
-  border-right: .15em solid white;
+  border-right: 0.15em solid white;
   max-width: 14ch;
-  animation: typing 2s steps(30) forwards, 
-             blink-caret 0.5s cubic-bezier(0.5, 0, 1, 1) 0s infinite alternate;
+  animation:
+    typing 2s steps(30) forwards,
+    blink-caret 0.5s cubic-bezier(0.5, 0, 1, 1) 0s infinite alternate;
 }
 
 @keyframes typing {
-  from { width: 0; }
-  to { width: 100%; }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 @keyframes blink-caret {
-  from { border-color: transparent; }
-  to { border-color: white; }
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: white;
+  }
 }
-#entrepreneurcontainer, #studentcontainer {
-  margin-top: 30px; 
-  margin-bottom: 30px; 
+#entrepreneurcontainer,
+#studentcontainer {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }

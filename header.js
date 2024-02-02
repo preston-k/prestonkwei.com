@@ -9,6 +9,6 @@ const header = `
       </div>
     </div>
     <hr class='hrmain' />
-  `
+  `;
 
 // document.body.innerHTML = header + document.body.innerHTML

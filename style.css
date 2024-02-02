@@ -1,38 +1,37 @@
 html {
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  overflow-x: hidden;
   display: flex;
-  flex-direction: column;
   flex: 1;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: black;
 }
 
 body {
-  color: white;
-  font-family: 'Poppins';
-  margin: 0px;
   display: flex;
-  flex-direction: column;
   flex: 1;
+  flex-direction: column;
+  margin: 0px;
+  color: white;
+  font-family: "Poppins";
 }
 
 #pkweihead {
-  font-family: 'Oswald';
-  font-size: 100px;
   margin: 0px;
+  font-size: 100px;
+  font-family: "Oswald";
 }
 
 .hrmain {
-  border-color: white;
   color: white;
-
+  border-color: white;
 }
 
 .toc {
   display: flex;
-  justify-content: space-between;
   align-items: flex-end;
+  justify-content: space-between;
 }
 
 .tocbut-container {
@@ -42,36 +41,36 @@ body {
 }
 
 .tocbut {
-  font-family: "Poppins";
-  border: 0px;
-  font-size: 24px;
-  background-color: black;
-  color: white;
-  cursor: pointer;
   margin: 0px;
+  color: white;
+  font-size: 24px;
+  font-family: "Poppins";
+  background-color: black;
+  border: 0px;
+  cursor: pointer;
 }
 
 .tocbut:hover {
-  font-family: "Poppins";
-  border: 0px;
-  font-size: 24px;
-  background-color: white;
-  color: black;
-  cursor: pointer;
-  margin-left: 0px;
   margin-right: 0px;
+  margin-left: 0px;
+  color: black;
+  font-size: 24px;
+  font-family: "Poppins";
+  background-color: white;
+  border: 0px;
+  cursor: pointer;
 }
 
 .footer {
-  align-items: center;
-  background-color: #5A5A5A;
-  color: white;
-  width: 100%;
-  padding: 0px;
-  margin: 0px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  width: 100%;
+  margin: 0px;
   margin-top: 50px;
+  padding: 0px;
+  color: white;
+  background-color: #5a5a5a;
 }
 
 .footer-spacer {
@@ -79,7 +78,7 @@ body {
 }
 
 .IAMA:hover {
-  color: #7EC8E3;
+  color: #7ec8e3;
 }
 
 a {
@@ -88,24 +87,24 @@ a {
 }
 
 a:hover {
-  color: #7EC8E3;
+  color: #7ec8e3;
 }
 
 .abtclasscontainers {
-  border: 2px;
-  border-style: solid;
-  border-color: white;
   text-align: center;
+  border: 2px;
+  border-color: white;
+  border-style: solid;
 }
 
 .iamaaboutpage {
-  margin-left: 10px;
   margin-right: 10px;
-  text-decoration: underline;
-  font-size: 24px;
+  margin-left: 10px;
   font-weight: 2;
-  text-align: left;
+  font-size: 24px;
   line-height: 0.5;
+  text-align: left;
+  text-decoration: underline;
 }
 
 #pkweihead:hover {
@@ -113,13 +112,13 @@ a:hover {
 }
 
 .loginbox {
-  height: 50px;
   width: 300px;
-  background-color: black;
-  border: 0px;
+  height: 50px;
   color: white;
   font-size: 18px;
   font-family: "Poppins";
+  background-color: black;
+  border: 0px;
   border-bottom: 3px solid white;
 }
 
@@ -130,35 +129,35 @@ a:hover {
 }
 
 #footright {
-  text-align: right;
-  margin-right: 20px;
   width: 50%;
+  margin-right: 20px;
+  text-align: right;
 }
 
 .socialicon {
-  height: 30px;
   width: 30px;
+  height: 30px;
   margin-left: 10px;
 }
 
 table {
-  font-family: "Poppins";
-  border-collapse: collapse;
   width: 100%;
   color: white;
+  font-family: "Poppins";
+  border-collapse: collapse;
 }
 
 #updatetoprow {
-  background-color: #00FFCC;
   color: black;
   font-weight: 2;
+  background-color: #00ffcc;
 }
 
 td,
 th {
-  border: 3px solid #ffffff;
-  text-align: left;
   padding: 8px;
+  text-align: left;
+  border: 3px solid #ffffff;
 }
 
 tr:nth-child(even) {
@@ -166,11 +165,13 @@ tr:nth-child(even) {
 }
 
 .socialinbox {
-  height: 100px;
   width: 100px;
+  height: 100px;
   padding: 30px;
   cursor: pointer;
-  transition: box-shadow 0.3s, transform 0.3s;
+  transition:
+    box-shadow 0.3s,
+    transform 0.3s;
 }
 
 .socialinbox:hover {
@@ -178,28 +179,27 @@ tr:nth-child(even) {
   transform: scale(1.1);
 }
 
-
 .bodydivs {
-  margin-left: 20px;
   margin-right: 20px;
+  margin-left: 20px;
 }
 
 .contactform {
   height: 50px;
-  background-color: black;
-  border: 0px;
   color: white;
   font-size: 18px;
   font-family: "Poppins";
+  background-color: black;
+  border: 0px;
   border-bottom: 3px solid white;
 }
 
 #formdiv {
-  margin-left: 30%;
   margin-right: 30%;
+  margin-left: 30%;
   padding-top: 20px;
   padding-bottom: 20px;
-  border: 5px solid #7EC8E3;
+  border: 5px solid #7ec8e3;
 }
 
 #fn,
@@ -214,24 +214,24 @@ tr:nth-child(even) {
 }
 
 #inquiry {
-  vertical-align: text-top;
   width: 34vw;
   max-width: 800px;
   height: 5vw;
+  vertical-align: text-top;
 }
 #times {
   font-size: 300px;
   text-align: center;
 }
 #animatedHr hr {
-  border: 0;
   height: 3px;
-  background: #FFFFFF;
-  margin-left: 20px;
   margin-right: 20px;
+  margin-left: 20px;
+  background: #ffffff;
+  border: 0;
+  transform-origin: center;
   visibility: visible;
   animation: expandHr 1.5s ease-in-out forwards;
-  transform-origin: center;
 }
 
 @keyframes expandHr {
@@ -243,16 +243,19 @@ tr:nth-child(even) {
   }
 }
 .longlinks {
-  height: 50px;
-  margin: 15px;
-  width: 80vw;
-  border: 1.5px solid white;
-  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 80vw;
+  height: 50px;
+  margin: 15px;
   font-size: 20px;
-  transition: transform 0.3s, font-weight 0.3s, color 0.3s;
+  border: 1.5px solid white;
+  border-radius: 5px;
+  transition:
+    transform 0.3s,
+    font-weight 0.3s,
+    color 0.3s;
 }
 
 .longlinks:hover {
@@ -262,40 +265,37 @@ tr:nth-child(even) {
 #inline3 {
   display: inline-flex;
   width: 25%;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 .funfactrow {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  padding: 20px;
-  margin: 0 auto;
-  width: 100%;
-}
-
-.ffstack {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+  margin: 0 0;
+  padding: 50px 100px;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  /* padding: 20px; */
 }
 
 .divt1 {
-  width: 100px; 
-  height: 100px;
-  background-color: #7EC8E3;
-  margin: 5px;
-  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #7ec8e3;
+  border-radius: 7px;
+  aspect-ratio: 1 / 1;
 }
 
 .divt2 {
-  width: 200px;
-  height: 210px;
-  background-color: #7EC8E3;
-  margin: 5px;
-  border-radius: 5px;
+  display: flex;
+  grid-row: 1 / 3; /* start at row #1 and finish BEFORE row #3 */
+  grid-column: 2 / 4; /* start at column #2 and finish BEFORE column #4 */
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
