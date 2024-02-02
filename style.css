@@ -290,7 +290,18 @@ tr:nth-child(even) {
   border-radius: 7px;
   aspect-ratio: 1 / 1;
 }
+.divt1:hover {
+  transform: scale(1.02);
+  transition: transform 0.2s ease;
+}
+.divt2:hover {
+  transform: scale(1.02);
+  transition: transform 0.32 ease;
+}
 
+#funfact1 {
+  background-color: #d8b9ff;
+}
 .divt2 {
   display: flex;
   grid-row: 1 / 3; /* start at row #1 and finish BEFORE row #3 */
