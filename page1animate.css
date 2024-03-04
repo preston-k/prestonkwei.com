@@ -46,12 +46,12 @@
 }
 
 /* =============== I AM A -- SLIDE IN's =============== */
-#webdev {
+#a1 {
   visibility: hidden;
-  animation: slideInWebDev 1.5s forwards;
+  animation: slideIna1 1.5s forwards;
 }
 
-@keyframes slideInWebDev {
+@keyframes slideIna1 {
   from {
     transform: translateX(100%);
   }
@@ -61,12 +61,12 @@
   }
 }
 
-#entrepreneur {
+#a2 {
   visibility: hidden;
-  animation: slideInEntrepreneur 1.5s 1s forwards;
+  animation: slideIna2 1.5s 1s forwards;
 }
 
-@keyframes slideInEntrepreneur {
+@keyframes slideIna2 {
   from {
     transform: translateX(100%);
   }
@@ -76,12 +76,12 @@
   }
 }
 
-#student {
+#a3 {
   visibility: hidden;
-  animation: slideInStudent 1s 2s forwards;
+  animation: slideIna3 1s 2s forwards;
 }
 
-@keyframes slideInStudent {
+@keyframes slideIna3 {
   from {
     transform: translateX(100%);
   }
@@ -91,12 +91,12 @@
   }
 }
 
-#chef {
+#a4 {
   visibility: hidden;
-  animation: slideInChef 1.5s 3s forwards;
+  animation: slideIna4 1.5s 3s forwards;
 }
 
-@keyframes slideInChef {
+@keyframes slideIna4 {
   from {
     transform: translateX(100%);
   }
