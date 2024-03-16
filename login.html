@@ -11,7 +11,16 @@
         href="https://fonts.googleapis.com/css2?family=Oswald">
   <link rel="icon" href="https://cdn.prestonkwei.com/personalwebsitefavicon.png">
 </head>
-<body>
+<script>
+  function redirect() {
+    setTimeout(() => {
+      window.open('https://oauth.prestonkwei.com/login?redir=https://prestonkwei.com/landing','_self')
+    }, 2000);
+    
+
+  }
+</script>
+<body onload='redirect()'>
   <div class='bodydivs'>
     <div class='toc'>
       <a href='https://prestonkwei.com'><h1 class='headbut' id='pkweihead'>PRESTON KWEI</h1></a>
@@ -23,16 +32,7 @@
       </div>
     </div>
     <hr class='hrmain'>
-    <h1 align='center'>Login</h1>
-    <form align='center' id='login'>
-      <input class='loginbox' id='loginuser' type='textbox' placeholder='Username'></input>
-      <br>
-      <br>
-      <input class='loginbox' id='loginpass' type='password' placeholder='Password'></input>
-      <br>
-      <input id='loginsub' type='submit'></input>
-    </form>
-  </div>
+    <p>You are being redirected to our login page. After logging in, you will be redirected back to our website!</p>
     
   <script src="footer.js"></script>
   <script src="script.js" type='module'></script>
