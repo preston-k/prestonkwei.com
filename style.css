@@ -350,3 +350,27 @@ tr:nth-child(even) {
 #redir {
   margin-left: 5px;
 }
+#secretpage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.numPass {
+  height: 80px;
+  background-color: black;
+  border: 2px solid white;
+  /* border-radius: 15px; */
+  font-family: 'Courier';
+  color: white;
+  font-size: 60px;
+  width: 55px;
+  text-align: center;
+}
+
+#num1 {
+  border-radius: 15px 0 0 15px;
+}
+#num4 {
+  border-radius: 0 15px 15px 0;
+}
