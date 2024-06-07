@@ -16,6 +16,14 @@ const footer = `
       <a target='_blank' href='https://vsco.co/prestonkwei'><img class='socialicon' src='https://wnwreby.media.bublupcdn.com/v-v4o477bPV1XfhmG0_wUg/images/full_007-im-c4104464-1ed0-415e-8bab-b1fbc5287139.png'></a>
     </div>
   </div>
+  <div id='foot-bottom'>
+    <div id='foot-bottom-left'></div>
+    <div id='foot-legal'>
+      <a href='https://legal.prestonkwei.com/policies/privacy' class='link-inline' target='_blank'><p  class='legal-link'>Privacy Policy</p></a>
+      <p class='link-inline' >⋅</p>
+      <a href='https://legal.prestonkwei.com/policies/tos' class='link-inline' target='_blank'><p class='legal-link'>Terms of Service</p></a>
+    </div>
+  </div>
 `;
 
 document.body.innerHTML += footer;

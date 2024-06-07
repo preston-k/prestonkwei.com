@@ -38,49 +38,36 @@
 </script>
   <body>
     <div id='signinstat'><p>You've been logged in!</p></div>
+    <div id='mobile-top'>
+      <div id='mobile-menu'>
+        <div class='mobile-menu-click'></div>
+        <div class='mobile-menu-click'></div>
+        <div class='mobile-menu-click'></div>
+      </div>
+    </div>
     <div class="bodydivs">
       <div class="toc">
         <a href="https://prestonkwei.com"
-          ><h1 class="headbut" id="pkweihead">PRESTON KWEI</h1></a
-        >
+          ><h1 class="headbut" id="pkweihead">PRESTON KWEI</h1></a>
         <div class="tocbut-container" style="display: inline">
-          <a href="https://prestonkwei.com"
-            ><button
-              class="tocbut"
-              style="background-color: white; color: black"
-            >
-              HOME
-            </button></a
-          >
+          <a href="https://prestonkwei.com"><button class="tocbut" style="background-color: white; color: black" >HOME</button></a>
           <a href="links.html"><button class="tocbut">LINKS</button></a>
           <a href="about.html"><button class="tocbut">ABOUT</button></a>
           <a href="contact.html"><button class="tocbut">CONTACT</button></a>
         </div>
       </div>
+
       <hr class="hrmain" />
       <h3 id='homebox'>
         Hi, I'm Preston! Thanks for stopping by my website! I'm a teen entrepreneur and student, and I love all things related to cooking, coding, and technology. My website contains a bunch of information about me, as well as useful tools that I have created. Feel free to <a href='/login.html'><u>create an account</u></a> to take advantage of all the cool things my sites have to offer. Thanks again for stopping by!
       </h3>
-      <h3 align="center">
+      <h3 style='text-align: center;'>
         If you want, you can try to find some of the
         <span class="tooltip-container">
           <span class="hidden-features-text">hidden features!</span>
           <span class="tooltip-text">Just like this one!</span>
         </span>
       </h3>
-      <h1 padding-left="5px">I AM A...</h1>
-      <a href="about.html#a1"
-        ><h3 class="IAMA" id="a1"><b>⇨ </b>Placeholder...Something big is coming!</h3></a
-      >
-      <a href="about.html#a2"
-        ><h3 class="IAMA" id="a2"><b>⇨ </b>Placeholder...Something big is coming!</h3></a
-      >
-      <a href="about.html#a3"
-        ><h3 class="IAMA" id="a3"><b>⇨ </b>Placeholder...Something big is coming!</h3></a
-      >
-      <a href="about.html#a4"
-        ><h3 class="IAMA" id="a4"><b>⇨ </b>Placeholder...Something big is coming!</h3></a
-      >
     </div>
     <div id="animatedHr"><hr /></div>
     <!-- <div id='inline3'>
@@ -95,11 +82,45 @@
     </div>
   </div> -->
     <div align="center">
-      <h2>Check out some of my products!</h2>
-      <div></div>
+      <h2>Take a look at some of the things I have made!</h2>
+      <div id='made-container'>
+        <a href='https://oauth.prestonkwei.com' target='_blank'><div id='made-1' class='made-div'>
+          <div class='made-shape-content' id='shape-content-1'>
+            <div class='made-shape-content-holder'>
+              <p class='made-title'>OAUTH PAGE</p>
+              <p class='made-desc'>A login platform that allows users to store profile photos, first and last name, and log into the PrestonKwei.com suite of apps.</p>
+            </div>
+          </div>
+        </div></a>
+        <a href='https://whiteboard.prestonkwei.com' target='_blank'><div id='made-2' class='made-div'>
+          <div class='made-shape-content' id='shape-content-2'>
+            <div class='made-shape-content-holder'>
+              <p class='made-title'>Whiteboard</p>
+              <p class='made-desc'>A simple collaboration app to share ideas. Create shared boards and start posting! Perfect for students, teachers, and coworking spaces!</p>
+            </div>
+          </div>
+        </div></a>
+        <a href='https://go.prestonkwei.com' target='_blank'><div id='made-3' class='made-div'>
+          <div class='made-shape-content' id='shape-content-3'>
+            <div class='made-shape-content-holder' id='made-desc-3'>
+              <p class='made-title'>Link Tracker</p>
+              <p class='made-desc'>See if people <i>really</i> open your links by sending them a tracked one. Simply paste a link then send the tracked one!</p>
+            </div>
+          </div>
+        </div></a>
+        <a href='https://chat.prestonkwei.com' target='_blank'><div id='made-4' class='made-div'>
+          <div class='made-shape-content' id='shape-content-4'>
+            <div class='made-shape-content-holder' id='made-desc-4'>
+              <p class='made-title'>Chat App</p>
+              <p class='made-desc'>**STILL IN DEV** A simple chat app that allows users to talk to each other, and meet new people! Chats are encrypted and private.</p>
+            </div>
+          </div>
+        </div></a>
+      </div>
     </div>
     <script src="script.js" type="module"></script>
     <script src="header.js"></script>
+
     <script src="footer.js"></script>
   </body>
 </html>

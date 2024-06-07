@@ -30,3 +30,7 @@ function init() {
 // LEAVE AT BOTTOM OF PAGE
 init();
 
+let mobilemenu = false
+document.querySelector('#mobile-menu').addEventListener('click', () => {
+  console.log('Mobile Menu')
+})
