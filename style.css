@@ -559,3 +559,76 @@ tr:nth-child(even) {
   text-align: center;
   font-size: 24px;
 }
+#link-to-thestickysupplies {
+  width: 150px;
+  height: 50px;
+  border: 2px solid white;
+  color: white;
+  margin: 10px;
+  font-size: 18px;
+  font-family: 'Poppins';
+  background-color: transparent;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#link-to-thestickysupplies:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+.about-applications-indiv {
+  min-width: 300px;
+  min-height: 300px;
+  border-radius: 15px;
+  background-color: #E6F4FB;
+  margin: 10px;
+}
+#about-applications {
+  width: max-content;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid white;
+  justify-content: space-around;
+}
+#mobile-footer {
+  width: 100vw;
+  background-color: #5a5a5a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  display: none;
+  margin: none;
+}
+
+#mobilefooter-socials {
+  display: flex;
+  justify-content: center;
+  width: 100;
+}
+.mobilefoot-socialicon {
+  width: 30px;
+  height: 30px;
+  margin: 7px;
+  margin-top: 15px;
+}
+.mobilefoot-text {
+  text-align: center;
+}
+#mobilefoot-legal {
+  text-align: center;
+  font-size: 10px;
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 660px) {
+  .footer {
+    display: none;
+  }
+  #foot-bottom {
+    display: none;
+  }
+  #mobile-footer {
+    display: block;
+  }
+}
