@@ -42,7 +42,5 @@ document.querySelector('#mobile-menu').addEventListener('click', () => {
     document.querySelector('#mobile-menu-select').style.display = 'block'
   }
 })
-
-
 // LEAVE AT BOTTOM OF PAGE
 init();
