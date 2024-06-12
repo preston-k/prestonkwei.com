@@ -27,10 +27,22 @@ function init() {
   }
   }
 }
-// LEAVE AT BOTTOM OF PAGE
-init();
+
 
 let mobilemenu = false
 document.querySelector('#mobile-menu').addEventListener('click', () => {
   console.log('Mobile Menu')
+  if (mobilemenu) {
+    console.log(mobilemenu)
+    mobilemenu = false
+    document.querySelector('#mobile-menu-select').style.display = 'none'
+  } else {
+    console.log(mobilemenu)
+    mobilemenu = true
+    document.querySelector('#mobile-menu-select').style.display = 'block'
+  }
 })
+
+
+// LEAVE AT BOTTOM OF PAGE
+init();
