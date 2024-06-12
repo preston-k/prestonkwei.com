@@ -530,7 +530,7 @@ tr:nth-child(even) {
 }
 #rotate-container {
   font-family: 'Fredoka';
-  width: 100vw;
+  width: 100;
   height: 60px;
   background-color: #015477;
   display: flex;
