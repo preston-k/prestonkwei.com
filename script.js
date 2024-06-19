@@ -44,3 +44,5 @@ document.querySelector('#mobile-menu').addEventListener('click', () => {
 })
 // LEAVE AT BOTTOM OF PAGE
 init();
+
+console.log('%cAll Systems Normal', 'color: lightgreen; -webkit-text-stroke: 1.5px black; font-size: 50px; font-weight: 700; ')
