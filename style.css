@@ -336,6 +336,7 @@ tr:nth-child(even) {
   margin: auto;
   margin-top: 10px;
   transition: top 1s ease-in-out;
+  z-index: 9999999999999999999 !important;
 }
 #homebox {
   font-size: 18px;
