@@ -1,0 +1,62 @@
+<!-- TO DO LIST
+- Add login and firebase
+- Allow users to create an account 
+  - Then, if it is not my personal account, it redirects them to a different page. 
+  - Devops page uses cookies to check to see if the user is logged in, and if not, it redirects them to the homepage. If that doesn't work, put a giant modal on the page or an alert so that they get redirected automatically. (window.location.replace)
+-->
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Preston Kwei</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="page1animate.css" rel="stylesheet" type="text/css" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6764969312194057" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='https://cdn.prestonkwei.com/basecode/basecss.css'>		
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Poppins' />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Fredoka' />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Oswald' />
+    <link rel='icon' href='https://cdn.prestonkwei.com/personalwebsitefavicon.png' />
+  </head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D7ZXYH3Y64"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-D7ZXYH3Y64');
+</script>
+  <body>
+    <div id='signinstat'><p>You've been logged in!</p></div>
+    <div id='mobile-top'>
+      <div id='mobile-menu'>
+        <div class='mobile-menu-click'></div>
+        <div class='mobile-menu-click'></div>
+        <div class='mobile-menu-click'></div>
+      </div>
+    </div>
+    <div id='mobile-menu-select'>
+      <a href='/'><div class='mobile-menu-option' style='background-color: white; color: black;'><p>HOME</p></div></a>
+      <a href='/links.html'><div class='mobile-menu-option'><p>LINKS</p></div></a>
+      <a href='/about.html'><div class='mobile-menu-option'><p>ABOUT</p></div></a>
+      <a href='/contact.html'><div class='mobile-menu-option'><p>CONTACT</p></div></a>
+    </div>
+    <div class="bodydivs">
+      <div class="toc">
+        <a href="https://prestonkwei.com"
+          ><h1 class="headbut" id="pkweihead">PRESTON KWEI</h1></a>
+        <div class="tocbut-container" style="display: inline">
+          <a href="https://prestonkwei.com"><button class="tocbut">HOME</button></a>
+          <a href="links.html"><button class="tocbut">LINKS</button></a>
+          <a href="about.html"><button class="tocbut">ABOUT</button></a>
+          <a href="contact.html"><button class="tocbut">CONTACT</button></a>
+        </div>
+      </div>
+      <hr class="hrmain" />
+    <script src="script.js" type="module"></script>
+    <script src="header.js"></script>
+    <script src="footer.js"></script>
+  </body>
+</html>
