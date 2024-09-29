@@ -4,11 +4,11 @@
   <meta charset='UTF-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <title>Access Denied</title>
-  <link rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Poppins">
-  <link rel="icon" href="https://cdn.prestonkwei.com/personalwebsitefavicon.png">
+  <link rel='stylesheet'
+            href='https://fonts.googleapis.com/css2?family=Poppins'>
+  <link rel='icon' href='https://cdn.prestonkwei.com/personalwebsitefavicon.png'>
 </head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-D7ZXYH3Y64"></script>
+<script async src='https://www.googletagmanager.com/gtag/js?id=G-D7ZXYH3Y64'></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -63,13 +63,13 @@
 
 </style>
 <script type='module'>
-  /** @type {typeof import("./static.json")} */
-  const data = await fetch("/static.json").then((x) => x.json());
+  /** @type {typeof import('./static.json')} */
+  const data = await fetch('/static.json').then((x) => x.json());
   const v = data.version;
   document.getElementById('scontent').innerHTML = 'Error: Access Denied ⋅ Version ' + v 
 </script>
 </head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-D7ZXYH3Y64"></script>
+<script async src='https://www.googletagmanager.com/gtag/js?id=G-D7ZXYH3Y64'></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -86,5 +86,6 @@
   <div id='static'>
     <p id='scontent'>Static Data Loading...</p>
   </div>
+  <script src='https://cdn.prestonkwei.com/code/dynamicBase.js'></script>
 </body>
 </html>
